@@ -1,8 +1,9 @@
 {
   "name": "matauang",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": " Node Package to format integer or string of number to Currency Format (NOT CURRENCY CONVERSION!). Pakcage untuk merubah string atau integer ke format mata uang. Daftar mata uang / Currenct List : idr, usd, gbp, eur, cny, jpy, sar, rub, chf, dkk, sek ",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
