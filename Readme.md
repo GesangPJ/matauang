@@ -1,6 +1,6 @@
 # MATAUANG
 
-Node Package to format integer or string of number to Currency Format (NOT CURRENCY CONVERSION!)
+Node Package to format integer or string of number to a String of Currency (NOT CURRENCY CONVERSION!)
 
 Node Pakcage untuk mengubah format integer atau string angka ke mata uang (BUKAN KONVERSI MATA UANG!)
 
@@ -13,12 +13,12 @@ Node Pakcage untuk mengubah format integer atau string angka ke mata uang (BUKAN
 5. Japanese Yen : `jpy(xxx)`
 6. Chinese Yuan : `cny(xxx)`
 7. Saudi Riyal : `sar(xxx)`
-8. Russia Rubel : `rub(xxx)`
+8. Russian Rubel : `rub(xxx)`
 9. Danish Krone : `dkk(xxx)`
 10. Swedish Krona : `sek(xxx)`
 11. Swiss (Switzerland) Franc : `chf(xxx)`
 
-Example : `const money = 25000   console.log(usd(money))`
+Example : `const money = usd(25000)`
 
 Result : `$25,000`
 
@@ -41,3 +41,10 @@ result2 = usd(moneys)
 console.log(result1,result2)
 
 ```
+
+## Changelog
+
+### v1.0.3
+
+- Fix Type Error
+- Simplified function
