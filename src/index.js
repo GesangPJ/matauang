@@ -28,7 +28,7 @@ const dkk = (jumlah) => formatCurrency(jumlah, 'da-DK', 'DKK')
 const sek = (jumlah) => formatCurrency(jumlah, 'sv-SE', 'SEK')
 
 // Export semua fungsi
-module.exports = {
+export default {
     idr,
     usd,
     gbp,
@@ -41,18 +41,3 @@ module.exports = {
     dkk,
     sek,
 }
-
-// Test hasil
-console.log(idr('10000')) // Rp10.000
-console.log(usd('10000')) // $10,000
-console.log(gbp(10000))   // £10,000
-console.log(eur('10000')) // 10.000 €
-console.log(cny('10000')) // ￥10,000
-console.log(jpy('10000')) // ￥10,000
-console.log(sar(10000))   // 10,000 ر.س
-console.log(sek(10000))   // 10.000 kr
-console.log(rub(10000))   // 10 000 ₽
-console.log(dkk(10000))   // 10.000 kr
-
-console.log(cny('invalid input')) // Invalid Number
-console.log(usd('abcdefg'))        // Invalid Number
