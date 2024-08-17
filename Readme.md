@@ -38,11 +38,14 @@ const moneys = '20,770'
 result1 = usd(money)
 result2 = usd(moneys)
 
-console.log(result1,result2)
-
 ```
 
 ## Changelog
+
+### v1.0.4
+
+- Remove Logs
+- Code Refactoring
 
 ### v1.0.3
 
